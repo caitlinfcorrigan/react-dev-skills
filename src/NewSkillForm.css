@@ -1,0 +1,24 @@
+.NewSkillForm {
+  margin: 4vmin;
+  padding: 2vmin;
+  border: 1vmin solid hotpink;
+  font-size: 6vmin;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.NewSkillForm > .level,
+.NewSkillForm > .input {
+  margin: 4vmin;
+  padding: 2vmin;
+  border: 1vmin solid hotpink;
+}
+.NewSkillForm > .button {
+  background-color: darkmagenta;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border-color: darkmagenta;
+  grid-column: span 2;
+}
